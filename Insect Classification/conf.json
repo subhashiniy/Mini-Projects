@@ -1,0 +1,18 @@
+{
+  "model"           : "inceptionv3",
+  "weights"         : "imagenet",
+  "include_top"     : false,
+
+  "train_path"      : "/home/subha/InsectData/DataSet/TRAIN",
+  "test_path"       : "/home/subha/InsectData/DataSet/TRAIN",
+  "features_path"   : "/home/subha/InsectData/Output/inceptionv3/features.h5",
+  "labels_path"     : "/home/subha/InsectData/Output/inceptionv3/labels.h5",
+  "results"         : "/home/subha/InsectData/Output/inceptionv3/results.txt",
+  "classifier_path" : "/home/subha/InsectData/Output/inceptionv3/classifier.pickle",
+  "model_path"      : "/home/subha/InsectData/Output/inceptionv3/model",
+
+  "test_size"       : 0.40,
+  "seed"            : 9,
+  "num_classes"     : 5
+}
+
