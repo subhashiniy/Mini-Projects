@@ -1,3 +1,4 @@
+#Text classification extension using Snowball stemmer
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
